@@ -1,0 +1,9 @@
+{
+    "not_on_voice": "Kamu tidak ada di saluran suara",
+    "not_on_same_voice": "Kamu tidak di saluran suara yang sama dengan ku",
+    "cannot_connect": "Tidak bisa menyambung ke saluran suara, tidak ada izin {{permissions}}",
+    "on_other_voice": "Aku telah berada di saluran suara lain, saluran suara {{channel}}",
+    "queue_not_available": "Tidak ada antrian di server ini",
+    "not_voted": "Untung menggunakan perintah ini, kamu harus vote untuk bot https://top.gg/bot/616169470293049344/vote atau membeli premium untuk bypass",
+    "not_premium": "Kamu harus membeli premium untuk menggunakan perintah ini"
+}
