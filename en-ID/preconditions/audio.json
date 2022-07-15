@@ -5,5 +5,6 @@
     "on_other_voice": "Aku telah berada di saluran suara lain, saluran suara {{channel}}",
     "queue_not_available": "Tidak ada antrian di server ini",
     "not_voted": "Untung menggunakan perintah ini, kamu harus vote untuk bot https://top.gg/bot/616169470293049344/vote atau membeli premium untuk bypass",
-    "not_premium": "Kamu harus membeli premium untuk menggunakan perintah ini"
+    "not_premium": "Kamu harus membeli premium untuk menggunakan perintah ini",
+    "not_dj": "This command has been restricted to the DJ users"
 }
