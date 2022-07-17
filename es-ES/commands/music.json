@@ -9,6 +9,7 @@
     "paused": "Paused current track",
     "resumed": "Resumed current track",
     "no_current_play": "No track currently playing",
+    "no_previous_track": "No previous track",
     "replay": "Replaying track {{songName}}",
     "previous": "Playing previous track {{songName}}",
     "stop": "Stopped current track and cleared queue",
