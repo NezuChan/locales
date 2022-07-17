@@ -21,6 +21,7 @@
     "no_lyrics_specified": "No lyrics title specified",
     "no_lyrics_found": "Could not find any lyrics",
     "search_song": "Select a track between 1 and 25, you have 20 seconds to select a track",
+    "added_song": "Added {{tracks}} track(s) to the queue",
     "play_cancelled": "No track selected, cancelled selection",
     "playlist_added_track": "Added {{totalTracks}} track(s) to playlist {{playlistName}}",
     "missing_playlist_identifier": "No playlist name or playlist id specified",
