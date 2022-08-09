@@ -1,6 +1,6 @@
 {
-    "anti_scam_deleted": "Warning {{User}} possibility of doing phising. {{totalEngine}} engines flagged it as malicious, deleted user message.",
-    "anti_scam_not_deleted": "Warning {{User}} possibility of doing phising. {{totalEngine}} engines flagged it as malicious, but i cant delete user message.",
-    "current_prefix": "Current prefix in this server is {{prefix}}",
-    "switch_to_interaction": "Please use the interaction command, we are removing ability to use message commands in next major version."
+  "anti_scam_deleted": "Warning {{User}} possibility of doing phising. {{totalEngine}} engines flagged it as malicious, deleted user message.",
+  "anti_scam_not_deleted": "Warning {{User}} possibility of doing phising. {{totalEngine}} engines flagged it as malicious, but i cant delete user message.",
+  "current_prefix": "Current prefix in this server is {{prefix}}",
+  "switch_to_interaction": "Please use the interaction command, we are removing ability to use message commands in next major version."
 }
