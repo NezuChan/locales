@@ -40,5 +40,12 @@
   "playlist_track_limit_reached": "You can only have a maximum of {{trackLimit}} tracks in a playlist, considering removing some tracks or purchase premium to increase the limit",
   "playlist_track_skipped": "Skipped {{amount}} track(s) because you have reached the limit of {{trackLimit}} tracks, considering removing some tracks or purchase premium to increase the limit",
   "playlist_limit_reached": "You can only have a maximum of {{playlistLimit}} playlists, considering removing some playlists or purchase premium to increase the limit",
-  "now_playing_empty": "No track currently playing"
+  "now_playing_empty": "No track currently playing",
+  "invalid_index": "You have input invalid index",
+  "removed_track": "Removed {{title}} from the queue",
+  "moved_track": "Moved {{title}} from position {{from}} to position {{to}}",
+  "no_additional_tracks_left": "No additional tracks left to add",
+  "invalid_track_limit": "You have input invalid tracks limit, it must not lower or more than tracks limit you have",
+  "extended_track_limit": "You have extended your playlist {{playlist}} track limit to {{trackLimit}}",
+  "subtracted_track_limit": "You have subtracted {{amount}} track(s) from your playlist {{playlist}} track limit"
 }
