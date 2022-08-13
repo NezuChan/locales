@@ -1,5 +1,5 @@
 {
-    "not_owner_guild": "You are not the owner of this guild.",
-    "member_missing_permissions": "You need {{permissions}} permission(s) to do this action.",
-    "client_missing_permissions": "I need {{permissions}} permission(s) to do this action."
+  "not_owner_guild": "You are not the owner of this guild.",
+  "member_missing_permissions": "You need {{permissions}} permission(s) to do this action.",
+  "client_missing_permissions": "I need {{permissions}} permission(s) to do this action."
 }
