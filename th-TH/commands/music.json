@@ -47,5 +47,6 @@
   "no_additional_tracks_left": "No additional tracks left to add",
   "invalid_track_limit": "You have input invalid tracks limit, it must not lower or more than tracks limit you have",
   "extended_track_limit": "You have extended your playlist {{playlist}} track limit to {{trackLimit}}",
-  "subtracted_track_limit": "You have subtracted {{amount}} track(s) from your playlist {{playlist}} track limit"
+  "subtracted_track_limit": "You have subtracted {{amount}} track(s) from your playlist {{playlist}} track limit",
+  "clear": "Cleared the queue"
 }
