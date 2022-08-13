@@ -1,8 +1,8 @@
 {
-    "audio_back_track": "{{author}} Menggunakan tombol untuk kembali ke trek antrian.",
-    "audio_pause_track": "{{author}} Menggunakan tombol untuk memberhentikan trek.",
-    "audio_stop_track": "{{author}} Menggunakan tombol untuk memberhentikan trek dan menghapus antrian.",
-    "audio_resume_track": "{{author}} Menggunakan tombol untuk melanjutkan trek.",
-    "audio_next_track": "{{author}} Menggunakan tombol untuk memulai trek selanjutnya.",
-    "audio_no_back_track": "{{author}} Menggunakan tombol untuk memainkan trek sebelum nya tetapi tidak ada trek di antrian."
+  "audio_back_track": "{{author}} Menggunakan tombol untuk kembali ke trek antrian.",
+  "audio_pause_track": "{{author}} Menggunakan tombol untuk memberhentikan trek.",
+  "audio_stop_track": "{{author}} Menggunakan tombol untuk memberhentikan trek dan menghapus antrian.",
+  "audio_resume_track": "{{author}} Menggunakan tombol untuk melanjutkan trek.",
+  "audio_next_track": "{{author}} Menggunakan tombol untuk memulai trek selanjutnya.",
+  "audio_no_back_track": "{{author}} Menggunakan tombol untuk memainkan trek sebelum nya tetapi tidak ada trek di antrian."
 }
