@@ -1,4 +1,5 @@
 {
   "enabled": "enabled",
-  "disabled": "disabled"
+  "disabled": "disabled",
+  "additional_size": "Additional size: {{size}}"
 }
