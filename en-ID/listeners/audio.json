@@ -1,5 +1,5 @@
 {
-    "play_start": "Sekarang Memutar: {{title}} {{user}}",
-    "play_queue_end": "Antrian telah selesai, tolong mengajukan trek untuk di mainkan",
-    "play_exception": "Kesalahan ketika memulai trek, menghapus antrian. terlalu banyak error berturut-turut"
+  "play_start": "Sekarang Memutar: {{title}} {{user}}",
+  "play_queue_end": "Antrian telah selesai, tolong mengajukan trek untuk di mainkan",
+  "play_exception": "Kesalahan ketika memulai trek, menghapus antrian. terlalu banyak error berturut-turut"
 }
