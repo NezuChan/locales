@@ -5,7 +5,7 @@
   "on_other_voice": "Я уже подключён к другому голосовому каналу, название которого {{channel}}",
   "queue_not_available": "Очередь проигрывания на этом сервере пуста",
   "not_voted": "Для использования этой команды необходимо проголосовать за бота на https://top.gg/bot/616169470293049344/vote , или же приобрести премиум",
-  "wait_to_vote": "You have {{time}} second(s) to vote for the bot",
+  "wait_to_vote": "You have {{time}} second(s) to vote for the bot https://top.gg/bot/616169470293049344/vote or purchase premium to bypass",
   "not_premium": "Вам необходимо приобрести премиум, чтобы использовать эту команду",
   "not_dj": "This command has been restricted to the DJ users"
 }
