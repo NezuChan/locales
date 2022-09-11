@@ -38,5 +38,7 @@
   "default_volume_settings_changed": "Changed default volume to {{volume}}",
   "default_volume_settings_invalid": "Invalid volume provided, please enter a number between {{min}} and {{max}}.",
   "default_volume_settings_current": "Current default volume is {{volume}}",
-  "guild_low_volume_tier": "Your guild tier is only limited volume from {{start}} to {{limit}}"
+  "guild_low_volume_tier": "Your guild tier is only limited volume from {{start}} to {{limit}}",
+  "track_announcement_settings_set": "Track announcement settings set to {{channel}}",
+  "track_announcement_settings_removed": "Track announcement settings removed"
 }
