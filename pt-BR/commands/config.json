@@ -5,8 +5,8 @@
   "track_announcement_settings_current_enabled": "Track announcement settings is enabled",
   "stay_in_voice_settings_enabled": "Stay in voice settings enabled",
   "stay_in_voice_settings_disabled": "Stay in voice settings disabled",
-  "stay_in_voice_settings_current_disabled": "Stay in voice settings is disabled",
-  "stay_in_voice_settings_current_enabled": "Stay in voice settings is enabled",
+  "stay_in_voice_settings_current_disabled": "Stay in voice settings is disabled, channel: {channel}",
+  "stay_in_voice_settings_current_enabled": "Stay in voice settings is enabled, channel: {channel}",
   "clear_queue_settings_enabled": "Clear queue settings enabled",
   "clear_queue_settings_disabled": "Clear queue settings disabled",
   "clear_queue_settings_current_disabled": "Clear queue settings is disabled",
@@ -39,5 +39,6 @@
   "default_volume_settings_invalid": "Invalid volume provided, please enter a number between {{min}} and {{max}}.",
   "default_volume_settings_current": "Current default volume is {{volume}}",
   "guild_low_volume_tier": "Your guild tier is only limited volume from {{start}} to {{limit}}",
-  "track_announcement_settings_set": "Track announcement settings set to {{channel}}"
+  "track_announcement_settings_set": "Track announcement settings set to {{channel}}",
+  "track_announcement_settings_removed": "Track announcement settings removed"
 }
