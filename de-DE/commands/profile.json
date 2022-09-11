@@ -1,5 +1,7 @@
 {
     "additional_tracks_size": "Additional tracks size: {{size}}",
     "additional_playlists_size": "Additional playlists size: {{size}}",
+    "tier_1_tickets": "Hashibira Inosuke (tier 1) tickets: {{size}}",
+    "tier_2_tickets": "Zenitsu Agatsuma (tier 2) tickets: {{size}}",
     "premium_status": "Premium status: {{status}}"
 }
