@@ -40,5 +40,6 @@
   "default_volume_settings_current": "Current default volume is {{volume}}",
   "guild_low_volume_tier": "Your guild tier is only limited volume from {{start}} to {{limit}}",
   "track_announcement_settings_set": "Track announcement settings set to {{channel}}",
-  "track_announcement_settings_removed": "Track announcement settings removed"
+  "track_announcement_settings_removed": "Track announcement settings removed",
+"auto_play_settings_limit_reached": "You have reached auto play config limit {{limit}}, purchase higher tier to get more limits or considering removing server whitelist."
 }
