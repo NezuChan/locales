@@ -3,5 +3,9 @@
     "additional_playlists_size": "Additional playlists size: {{size}}",
     "tier_1_tickets": "Hashibira Inosuke (tier 1) tickets: {{size}}",
     "tier_2_tickets": "Zenitsu Agatsuma (tier 2) tickets: {{size}}",
-    "premium_status": "Premium status: {{status}}"
+    "premium_status": "Premium status: {{status}}",
+    "premium_ticket_not_enough": "You don't have enough premium tickets, please purchase tickets or considering removing server whitelist.",
+    "activate_server_success": "Activated server premium tier: {{tier}}",
+    "unable_to_deactivate": "Unable to deactivate tier, please provide a valid tier or valid guild identifier",
+    "deactivate_server_success": "Deactivated server premium tier"
 }
