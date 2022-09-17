@@ -4,8 +4,8 @@
   "cannot_connect": "Tidak bisa menyambung ke saluran suara, tidak ada izin {{permissions}}",
   "on_other_voice": "Aku telah berada di saluran suara lain, saluran suara {{channel}}",
   "queue_not_available": "Tidak ada antrian di server ini",
-  "not_voted": "Untuk menggunakan perintah ini, kamu harus vote untuk bot https://top.gg/bot/616169470293049344/vote atau membeli premium untuk bypass",
-  "wait_to_vote": "Kamu mempunyai waktu {{time}} detik untuk vote bot https://top.gg/bot/616169470293049344/vote atau membeli premium untuk bypass",
+  "not_voted": "Untung menggunakan perintah ini, kamu harus vote untuk bot https://top.gg/bot/616169470293049344/vote atau membeli premium untuk bypass",
+  "wait_to_vote": "You have {{time}} second(s) to vote for the bot https://top.gg/bot/616169470293049344/vote or purchase premium to bypass",
   "not_premium": "Kamu harus membeli premium untuk menggunakan perintah ini",
   "not_dj": "This command has been restricted to the DJ users"
 }
