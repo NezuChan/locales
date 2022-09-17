@@ -1,8 +1,8 @@
 {
   "track_announcement_settings_enabled": "Track announcement settings enabled",
   "track_announcement_settings_disabled": "Track announcement settings disabled",
-  "track_announcement_settings_current_disabled": "Track announcement settings is disabled, channel: {channel}",
-  "track_announcement_settings_current_enabled": "Track announcement settings is enabled, channel: {channel}",
+  "track_announcement_settings_current_disabled": "Track announcement settings is disabled",
+  "track_announcement_settings_current_enabled": "Track announcement settings is enabled",
   "stay_in_voice_settings_enabled": "Stay in voice settings enabled",
   "stay_in_voice_settings_disabled": "Stay in voice settings disabled",
   "stay_in_voice_settings_current_disabled": "Stay in voice settings is disabled",
