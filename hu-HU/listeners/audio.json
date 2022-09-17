@@ -1,0 +1,5 @@
+{
+  "play_start": "Now Playing: {{title}} {{user}}",
+  "play_queue_end": "The queue has ended, please request for a track to be played",
+  "play_exception": "Error when playing track, stopping queue. too much error hit in a row"
+}
