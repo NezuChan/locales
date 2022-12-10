@@ -49,5 +49,6 @@
   "invalid_track_limit": "You have input invalid tracks limit, it must not lower or more than tracks limit you have",
   "extended_track_limit": "You have extended your playlist {{playlist}} track limit to {{trackLimit}}",
   "subtracted_track_limit": "You have subtracted {{amount}} track(s) from your playlist {{playlist}} track limit",
-  "clear": "Cleared the queue"
+  "clear": "Cleared the queue",
+  "youtube_not_supported": "Hello, YouTube is not supported anymore due to YouTube ToS not allowing us to stream"
 }
