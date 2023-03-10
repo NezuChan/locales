@@ -1,5 +1,0 @@
-{
-  "not_owner_guild": "Вы не являетесь владельцем этого сервера.",
-  "member_missing_permissions": "Для выполнения этого действия у вас недостаточно прав. Вам необходимо ещё {{permissions}}.",
-  "client_missing_permissions": "I need {{permissions}} permission(s) to do this action."
-}

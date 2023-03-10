@@ -1,6 +1,0 @@
-{
-  "anti_scam_deleted": "Perhatian {{User}} mencoba untuk phising. {{totalEngine}} engin yang menandainya sebagai berbahaya, telah menghapus pesan pengguna.",
-  "anti_scam_not_deleted": "Perhatian {{User}} mencoba untuk phising. {{totalEngine}} engin yang menandainya sebagai berbahaya, tapi aku tidak bisa menghapus pesan pengguna.",
-  "current_prefix": "Awalan perintah di server ini adalah {{prefix}}",
-  "switch_to_interaction": "Please use the interaction command, we are removing ability to use message commands in next major version."
-}
