@@ -36,6 +36,15 @@
       "plugin:@typescript-eslint/recommended",
       "@hazmi35/eslint-config/typescript"
     ],
-    "rules": {}
+    "rules": {
+      "class-methods-use-this": "off",
+      "@typescript-eslint/naming-convention": "off"
+    }
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@nezuchan/core": "^0.3.8",
+    "@nezuchan/decorators": "^0.1.0",
+    "@nezuchan/i18n": "https://gitpkg.now.sh/NezuChan/i18n?main&scripts.postinstall=%26%26%20npm%20run%20build"
   }
 }
