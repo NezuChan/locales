@@ -2,7 +2,7 @@ import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/preconditions/music"
+    name: "en-US/preconditions/music"
 })
 
 export class EnUsPreconditionsMusic extends LanguagePiece {

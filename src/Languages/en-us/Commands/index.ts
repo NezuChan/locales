@@ -3,11 +3,11 @@ import { ApplyOptions } from "@nezuchan/decorators";
 import { EnUsCommandsUtility } from "./Utility.js";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/commands"
+    name: "en-US/commands"
 })
 
 export class EnUsCommands extends LanguagePiece {
     public get utility(): EnUsCommandsUtility {
-        return this.container.stores.get("languages").get("en-us/commands/utility") as EnUsCommandsUtility;
+        return this.container.stores.get("languages").get("en-US/commands/utility") as EnUsCommandsUtility;
     }
 }

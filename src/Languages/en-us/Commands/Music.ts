@@ -4,7 +4,7 @@ import { bold, inlineCode } from "@discordjs/builders";
 import { User } from "@nezuchan/core";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/commands/music"
+    name: "en-US/commands/music"
 })
 
 export class EnUsCommandsMusic extends LanguagePiece {

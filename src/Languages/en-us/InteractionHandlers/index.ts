@@ -3,7 +3,7 @@ import { ApplyOptions } from "@nezuchan/decorators";
 import { User } from "@nezuchan/core";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/interaction-handlers"
+    name: "en-US/interaction-handlers"
 })
 
 export class EnUsInteractionHandlers extends LanguagePiece {

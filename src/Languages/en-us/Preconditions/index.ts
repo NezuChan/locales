@@ -3,11 +3,11 @@ import { ApplyOptions } from "@nezuchan/decorators";
 import { EnUsPreconditionsMusic } from "./Music.js";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/preconditions"
+    name: "en-US/preconditions"
 })
 
 export class EnUsPreconditions extends LanguagePiece {
     public get music(): EnUsPreconditionsMusic {
-        return this.container.stores.get("languages").get("en-us/preconditions/music") as EnUsPreconditionsMusic;
+        return this.container.stores.get("languages").get("en-US/preconditions/music") as EnUsPreconditionsMusic;
     }
 }

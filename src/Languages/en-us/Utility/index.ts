@@ -2,7 +2,7 @@ import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-us/utility"
+    name: "en-US/utility"
 })
 
 export class EnUsUtility extends LanguagePiece {
