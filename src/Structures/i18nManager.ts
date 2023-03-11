@@ -32,13 +32,3 @@ export class i18nManager extends Oi18nManager {
         return (this.stores.get("languages").get(language) as EnUs).preconditions;
     }
 }
-
-declare module "@sapphire/pieces" {
-    interface Container {
-        i18nManager: i18nManager;
-    }
-
-    interface StoreRegistryEntries {
-        languages: LanguageStore;
-    }
-}
