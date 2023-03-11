@@ -1,4 +1,4 @@
-import { i18nManager as Oi18nManager, ManagerOptions, LanguageStore } from "@nezuchan/i18n";
+import { i18nManager as Oi18nManager, ManagerOptions } from "@nezuchan/i18n";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { container } from "@sapphire/pieces";
