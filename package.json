@@ -2,7 +2,14 @@
   "name": "@nezuchan/locales",
   "version": "2.0.0",
   "description": "A Public Locales Translation Repository for NezukoChan.",
-  "main": "dist",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext ts",
