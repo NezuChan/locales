@@ -1,8 +1,0 @@
-{
-  "audio_back_track": "{{author}} Used the button to go back to the back track.",
-  "audio_pause_track": "{{author}} Used the button to pause the track.",
-  "audio_stop_track": "{{author}} Used the button to stop the track and clears the queue.",
-  "audio_resume_track": "{{author}} Used the button to resume the track.",
-  "audio_next_track": "{{author}} Used the button to play the next track.",
-  "audio_no_back_track": "{{author}} Used the button to go back to the back track but there is no back track."
-}

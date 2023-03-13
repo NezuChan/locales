@@ -1,6 +1,0 @@
-{
-  "anti_scam_deleted": "Предупреждение {{User}} из-за возможного фишинга. {{totalEngine}} систем пометили его сообщение, как вредоносное, сообщение будет удалено.",
-  "anti_scam_not_deleted": "Предупреждение {{User}} из-за возможного фишинга.{{totalEngine}} систем пометили его сообщение, как вредоносное, однако я не могу удалить сообщение пользователя.",
-  "current_prefix": "Текущий префикс на этом сервере: {{prefix}}",
-  "switch_to_interaction": "Please use the interaction command, we are removing ability to use message commands in next major version."
-}
