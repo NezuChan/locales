@@ -34,6 +34,6 @@ export class i18nManager extends Oi18nManager {
     }
 
     public getPlayer(language: string): EnUsPlayer {
-        return this.stores.get("languages").get(language) as EnUsPlayer;
+        return (this.stores.get("languages").get(language) as EnUs).player;
     }
 }
