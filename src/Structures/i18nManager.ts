@@ -8,6 +8,7 @@ import { EnUsUtility } from "../Languages/en-us/Utility/index.js";
 import { EnUsInteractionHandlers } from "../Languages/en-us/InteractionHandlers/index.js";
 import { EnUsCommands } from "../Languages/en-us/Commands/index.js";
 import { EnUsPreconditions } from "../Languages/en-us/Preconditions/index.js";
+import { EnUsPlayer } from "../Languages/en-us/Player/index.js";
 
 export class i18nManager extends Oi18nManager {
     public constructor(options: ManagerOptions) {
@@ -32,7 +33,7 @@ export class i18nManager extends Oi18nManager {
         return (this.stores.get("languages").get(language) as EnUs).preconditions;
     }
 
-    public getPlayer(language: string): EnUs {
-        return this.stores.get("languages").get(language) as EnUs;
+    public getPlayer(language: string): EnUsPlayer {
+        return this.stores.get("languages").get(language) as EnUsPlayer;
     }
 }
