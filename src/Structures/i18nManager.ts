@@ -31,4 +31,8 @@ export class i18nManager extends Oi18nManager {
     public getPreconditions(language: string): EnUsPreconditions {
         return (this.stores.get("languages").get(language) as EnUs).preconditions;
     }
+
+    public getPlayer(language: string): EnUs {
+        return this.stores.get("languages").get(language) as EnUs;
+    }
 }

@@ -4,6 +4,7 @@ import { EnUsUtility } from "./Utility/index.js";
 import { EnUsInteractionHandlers } from "./InteractionHandlers/index.js";
 import { EnUsCommands } from "./Commands/index.js";
 import { EnUsPreconditions } from "./Preconditions/index.js";
+import { EnUsPlayer } from "./Player/index.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-US"
@@ -24,5 +25,9 @@ export class EnUs extends LanguagePiece {
 
     public get preconditions(): EnUsPreconditions {
         return this.container.stores.get("languages").get("en-US/preconditions") as EnUsPreconditions;
+    }
+
+    public get player(): EnUsPlayer {
+        return this.container.stores.get("languages").get("en-US/player") as EnUsPlayer;
     }
 }
