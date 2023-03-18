@@ -32,4 +32,7 @@ export class EnUsCommandsMusic extends LanguagePiece {
     public STOP = (): string => "Stopped current track and cleared queue.";
     public CHANGE_VOLUME = (volume: number | string): string => `Changed volume to ${volume}%`;
     public VOLUME = (volume: number | string): string => `Volume is ${volume}%`;
+    public CHOOSE_TRACK = (): string => "Select a track between 1 and 25, you have 20 seconds to select a track";
+    public NO_CHOOSE_INPUT = (): string => "No track selected, cancelled selection.";
+    public LOADED_TRACKS = (tracks: number | string): string => `Loaded ${tracks} tracks.`;
 }
