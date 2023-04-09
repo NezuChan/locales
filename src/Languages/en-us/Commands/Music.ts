@@ -35,4 +35,6 @@ export class EnUsCommandsMusic extends LanguagePiece {
     public CHOOSE_TRACK = (): string => "Select a track between 1 and 25, you have 20 seconds to select a track";
     public NO_CHOOSE_INPUT = (): string => "No track selected, cancelled selection.";
     public LOADED_TRACKS = (tracks: number | string): string => `Loaded ${tracks} tracks.`;
+    public CHANGED_FILTERS = (filter: string): string => `Changed filters to ${inlineCode(filter)}`;
+    public DISABLED_FILTERS = (): string => "Disabled filters.";
 }
