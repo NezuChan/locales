@@ -11,4 +11,5 @@ export class EnUsUtility extends LanguagePiece {
     public DISABLED = (): string => "disabled";
     public INVALID_INDEX = (): string => "You must provide a valid index.";
     public INVALID_RANGE = (min: number | string, max: number | string): string => `You must provide a valid range. between ${inlineCode(String(min))} and ${inlineCode(String(max))}.`;
+    public MESSAGE_COMMANDS_NOT_SUPPORTED = (): string => "Message commands are no longer supported.";
 }

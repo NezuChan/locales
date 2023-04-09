@@ -36,4 +36,22 @@ export class i18nManager extends Oi18nManager {
     public getPlayer(language: string): EnUsPlayer {
         return (this.stores.get("languages").get(language) as EnUs).player;
     }
+
+    public get(locale?: string): TranslateResult {
+        return {
+            commands: this.getCommands(locale ?? "en-US"),
+            preconditions: this.getPreconditions(locale ?? "en-US"),
+            interactionHandlers: this.getInteractionHandlers(locale ?? "en-US"),
+            utility: this.getUtility(locale ?? "en-US"),
+            player: this.getPlayer(locale ?? "en-US")
+        };
+    }
+}
+
+export interface TranslateResult {
+    commands: EnUsCommands;
+    preconditions: EnUsPreconditions;
+    interactionHandlers: EnUsInteractionHandlers;
+    utility: EnUsUtility;
+    player: EnUsPlayer;
 }
