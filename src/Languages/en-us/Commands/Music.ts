@@ -37,5 +37,5 @@ export class EnUsCommandsMusic extends LanguagePiece {
     public LOADED_TRACKS = (tracks: number | string): string => `Loaded ${tracks} tracks.`;
     public CHANGED_FILTERS = (filter: string): string => `Changed filters to ${inlineCode(filter)}`;
     public DISABLED_FILTERS = (): string => "Disabled filters.";
-    public SUB_COMMAND_NOT_FOUND = (subCommand: string): string => `Sub command \`${subCommand}\` not found.`;
+    public MOVE_TRACK = (title: string, from: number | string, to: number | string): string => `Moved ${inlineCode(title)} from position ${inlineCode(String(from))} to position ${inlineCode(String(to))}`;
 }
