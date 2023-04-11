@@ -16,4 +16,5 @@ export class EnUsUtility extends LanguagePiece {
     public CONFIG_LIMIT_REACHED = (limit: number | string): string => `You have reached the limit of ${inlineCode(String(limit))} configuration.`;
     public CONFIG_ENABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.ENABLED()}.`;
     public CONFIG_DISABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.DISABLED()}.`;
+    public CONFIG_VIEW = (config: string, enable: boolean): string => `The ${inlineCode(config)} configuration is set to ${enable ? this.ENABLED() : this.DISABLED()}.`;
 }
