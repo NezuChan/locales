@@ -13,4 +13,5 @@ export class EnUsUtility extends LanguagePiece {
     public INVALID_RANGE = (min: number | string, max: number | string): string => `You must provide a valid range. between ${inlineCode(String(min))} and ${inlineCode(String(max))}.`;
     public MESSAGE_COMMANDS_NOT_SUPPORTED = (): string => "Message commands are no longer supported.";
     public SUB_COMMAND_NOT_FOUND = (subCommand: string): string => `Sub command \`${subCommand}\` not found.`;
+    public CONFIG_LIMIT_REACHED = (limit: number | string): string => `You have reached the limit of ${inlineCode(String(limit))} configuration.`;
 }
