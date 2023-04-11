@@ -14,4 +14,6 @@ export class EnUsUtility extends LanguagePiece {
     public MESSAGE_COMMANDS_NOT_SUPPORTED = (): string => "Message commands are no longer supported.";
     public SUB_COMMAND_NOT_FOUND = (subCommand: string): string => `Sub command \`${subCommand}\` not found.`;
     public CONFIG_LIMIT_REACHED = (limit: number | string): string => `You have reached the limit of ${inlineCode(String(limit))} configuration.`;
+    public CONFIG_ENABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.ENABLED()}.`;
+    public CONFIG_DISABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.DISABLED()}.`;
 }
