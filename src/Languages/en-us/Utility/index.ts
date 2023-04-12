@@ -2,6 +2,7 @@ import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { inlineCode } from "@discordjs/builders";
 import { stripIndents } from "common-tags";
+import { Emoji } from "@nezuchan/constants";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-US/utility"
@@ -21,14 +22,17 @@ export class EnUsUtility extends LanguagePiece {
     public CONFIG_VOLUME = (volume: number | string): string => `The default volume configuration has been set to ${inlineCode(String(volume))}.`;
     public CONFIG_VOLUME_VIEW = (volume: number | string): string => `The default volume configuration is set to ${inlineCode(String(volume))}.`;
     public CONFIG_DJ = (users: string[], roles: string []): string => stripIndents`
-        Set the DJ role configuration to ${roles.length ? roles.join(", ") : "none"}.
-        Set the DJ user configuration to ${users.length ? users.join(", ") : "none"}.
+        ${Emoji.Ok} | Updated the DJ configuration.
+
+        DJ Users: ${users.length ? users.join(", ") : "none"}
+        DJ Roles: ${roles.length ? roles.join(", ") : "none"}
     `;
 
     public CONFIG_DJ_VIEW = (users: string[], roles: string [], state: boolean): string => stripIndents`
-        The DJ role configuration is set to ${roles.length ? roles.join(", ") : "none"}.
-        The DJ user configuration is set to ${users.length ? users.join(", ") : "none"}.
-        The DJ configuration is set to ${state ? this.ENABLED() : this.DISABLED()}.
+        ${state ? Emoji.Ok : Emoji.No} | The DJ configuration is set to ${state ? this.ENABLED() : this.DISABLED()}.
+
+        DJ Users: ${users.length ? users.join(", ") : "none"}
+        DJ Roles: ${roles.length ? roles.join(", ") : "none"}
     `;
 
     public CONFIG_LIMIT = (limit: number | string): string => `You only allowed to add ${inlineCode(String(limit))} config.`;

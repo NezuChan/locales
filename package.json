@@ -55,6 +55,7 @@
     }
   },
   "dependencies": {
+    "@nezuchan/constants": "^0.5.4",
     "@nezuchan/i18n": "^2.0.0",
     "common-tags": "^1.8.2"
   }
