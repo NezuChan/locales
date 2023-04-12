@@ -21,13 +21,13 @@ export class EnUsUtility extends LanguagePiece {
     public CONFIG_VOLUME = (volume: number | string): string => `The default volume configuration has been set to ${inlineCode(String(volume))}.`;
     public CONFIG_VOLUME_VIEW = (volume: number | string): string => `The default volume configuration is set to ${inlineCode(String(volume))}.`;
     public CONFIG_DJ = (users: string[], roles: string []): string => stripIndents`
-        Set the DJ role configuration to ${roles.length ? roles.map(role => inlineCode(role)).join(", ") : "none"}.
-        Set the DJ user configuration to ${users.length ? users.map(user => inlineCode(user)).join(", ") : "none"}.
+        Set the DJ role configuration to ${roles.length ? roles.join(", ") : "none"}.
+        Set the DJ user configuration to ${users.length ? users.join(", ") : "none"}.
     `;
 
     public CONFIG_DJ_VIEW = (users: string[], roles: string [], state: boolean): string => stripIndents`
-        The DJ role configuration is set to ${roles.length ? roles.map(role => inlineCode(role)).join(", ") : "none"}.
-        The DJ user configuration is set to ${users.length ? users.map(user => inlineCode(user)).join(", ") : "none"}.
+        The DJ role configuration is set to ${roles.length ? roles.join(", ") : "none"}.
+        The DJ user configuration is set to ${users.length ? users.join(", ") : "none"}.
         The DJ configuration is set to ${state ? this.ENABLED() : this.DISABLED()}.
     `;
 
