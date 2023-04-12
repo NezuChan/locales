@@ -30,4 +30,6 @@ export class EnUsUtility extends LanguagePiece {
         The DJ user configuration is set to ${users.length ? users.map(user => inlineCode(user)).join(", ") : "none"}.
         The DJ configuration is set to ${state ? this.ENABLED() : this.DISABLED()}.
     `;
+
+    public CONFIG_LIMIT = (limit: number | string): string => `You only allowed to add ${inlineCode(String(limit))} config.`;
 }
