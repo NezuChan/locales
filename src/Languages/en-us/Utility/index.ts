@@ -17,4 +17,6 @@ export class EnUsUtility extends LanguagePiece {
     public CONFIG_ENABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.ENABLED()}.`;
     public CONFIG_DISABLED = (config: string): string => `The ${inlineCode(config)} configuration has been ${this.DISABLED()}.`;
     public CONFIG_VIEW = (config: string, enable: boolean): string => `The ${inlineCode(config)} configuration is set to ${enable ? this.ENABLED() : this.DISABLED()}.`;
+    public CONFIG_VOLUME = (volume: number | string): string => `The default volume configuration has been set to ${inlineCode(String(volume))}.`;
+    public CONFIG_VOLUME_VIEW = (volume: number | string): string => `The default volume configuration is set to ${inlineCode(String(volume))}.`;
 }
