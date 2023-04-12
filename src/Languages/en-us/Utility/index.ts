@@ -32,4 +32,5 @@ export class EnUsUtility extends LanguagePiece {
     `;
 
     public CONFIG_LIMIT = (limit: number | string): string => `You only allowed to add ${inlineCode(String(limit))} config.`;
+    public CONFIG_INVALID = (): string => "You must provide a valid config.";
 }
