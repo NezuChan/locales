@@ -11,4 +11,5 @@ export class EnUsCommandsConfiguration extends LanguagePiece {
     public DJ_NOT_USER = (): string => "You must provide a valid user.";
     public LOCALES_CURRENT = (locale: string): string => `The current locale is set to ${inlineCode(locale)}.`;
     public LOCALES_INVALID = (): string => "You must provide a valid locale.";
+    public LOCALES_UPDATED = (locale: string): string => `The locale has been updated to ${inlineCode(locale)}.`;
 }
