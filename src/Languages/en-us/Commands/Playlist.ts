@@ -10,6 +10,7 @@ export class EnUsCommandsPlaylist extends LanguagePiece {
     public INVALID_IDENTIFIER = (): string => "You must provide a valid playlist identifier.";
     public INVALID_NAME = (): string => "Playlist name only allows letters, numbers, underscore, string. and must not more than 15 characters";
     public NOT_FOUND = (identifier: string): string => `Playlist ${inlineCode(identifier)} not found.`;
+    public TRACK_NOT_FOUND = (identifier: string): string => `Track ${inlineCode(identifier)} not found.`;
     public LIMIT_REACHED = (limit: number | string): string => `You have reached the limit of ${inlineCode(String(limit))} playlist.`;
     public TRACKS_LIMIT_REACHED = (limit: number | string): string => `You have reached the limit of ${inlineCode(String(limit))} tracks.`;
     public ADDED_TRACKS = (tracks: number | string): string => `Added ${tracks} tracks to the playlist.`;
