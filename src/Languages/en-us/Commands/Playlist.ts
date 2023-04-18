@@ -17,6 +17,7 @@ export class EnUsCommandsPlaylist extends LanguagePiece {
     public TRACKS_SKIPPED = (amount: number | string, limit: number | string): string => `Skipped ${inlineCode(String(amount))} track(s) because you have reached the limit of ${inlineCode(String(limit))} tracks, considering removing some tracks or purchase premium to increase the limit`;
     public CREATED = (name: string): string => `Playlist ${inlineCode(name)} has been created.`;
     public DELETED = (name: string): string => `Playlist ${inlineCode(name)} has been deleted.`;
+    public DELETED_TRACK = (identifier: string): string => `Track ${inlineCode(identifier)} has been deleted.`;
     public EXISTS = (name: string): string => `Playlist ${inlineCode(name)} already exists.`;
     public EXTEND_TRACK_LIMIT = (playlist: string, limit: number | string): string => `You have extended your playlist ${inlineCode(playlist)} track limit to ${inlineCode(String(limit))}.`;
     public SUBTRACT_TRACK_LIMIT = (playlist: string, amount: number | string): string => `You have subtracted ${inlineCode(String(amount))} track(s) from your playlist ${inlineCode(playlist)} track limit.`;
