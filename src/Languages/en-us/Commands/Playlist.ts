@@ -8,6 +8,7 @@ import { inlineCode } from "@discordjs/builders";
 
 export class EnUsCommandsPlaylist extends LanguagePiece {
     public INVALID_IDENTIFIER = (): string => "You must provide a valid playlist identifier.";
+    public INVALID_TRACK_IDENTIFIER = (): string => "You must provide a valid track identifier.";
     public INVALID_NAME = (): string => "Playlist name only allows letters, numbers, underscore, string. and must not more than 15 characters";
     public NOT_FOUND = (identifier: string): string => `Playlist ${inlineCode(identifier)} not found.`;
     public TRACK_NOT_FOUND = (identifier: string): string => `Track ${inlineCode(identifier)} not found.`;
