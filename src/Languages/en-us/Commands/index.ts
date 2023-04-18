@@ -3,6 +3,7 @@ import { ApplyOptions } from "@nezuchan/decorators";
 import { EnUsCommandsUtility } from "./Utility.js";
 import { EnUsCommandsMusic } from "./Music.js";
 import { EnUsCommandsConfiguration } from "./Configuration.js";
+import { EnUsCommandsPlaylist } from "./Playlist.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-US/commands"
@@ -19,5 +20,9 @@ export class EnUsCommands extends LanguagePiece {
 
     public get configuration(): EnUsCommandsConfiguration {
         return this.container.stores.get("languages").get("en-US/commands/configuration") as EnUsCommandsConfiguration;
+    }
+
+    public get playlist(): EnUsCommandsPlaylist {
+        return this.container.stores.get("languages").get("en-US/commands/playlist") as EnUsCommandsPlaylist;
     }
 }
