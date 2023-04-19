@@ -28,6 +28,6 @@ export class EnUsCommands extends LanguagePiece {
     }
 
     public get premium(): EnUsCommandsPremium {
-        return this.container.stores.get("languages").get("en-US/commands/playlist") as EnUsCommandsPremium;
+        return this.container.stores.get("languages").get("en-US/commands/premium") as EnUsCommandsPremium;
     }
 }
