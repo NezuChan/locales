@@ -23,4 +23,6 @@ export class EnUsCommandsPlaylist extends LanguagePiece {
     public EXTEND_TRACK_LIMIT = (playlist: string, limit: number | string): string => `You have extended your playlist ${inlineCode(playlist)} track limit to ${inlineCode(String(limit))}.`;
     public SUBTRACT_TRACK_LIMIT = (playlist: string, amount: number | string): string => `You have subtracted ${inlineCode(String(amount))} track(s) from your playlist ${inlineCode(playlist)} track limit.`;
     public LOADED_PLAYLIST = (name: string, tracks: number | string): string => `Loaded playlist ${inlineCode(name)} with ${inlineCode(String(tracks))} tracks.`;
+    public EMPTY = (): string => "This playlist is empty.";
+    public HAS_NO_PLAYLIST = (): string => "You don't have any playlist.";
 }
