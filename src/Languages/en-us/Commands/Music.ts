@@ -8,6 +8,7 @@ import { User } from "@nezuchan/core";
 })
 
 export class EnUsCommandsMusic extends LanguagePiece {
+    public CURRENT_TRACK = (): string => "Current track";
     public CLEAR = (): string => "Cleared the queue.";
     public DISCONNECT = (): string => "Disconnected from voice channel, thanks for listening !";
     public JOIN_CHANNEL = (channel: string): string => `Joined ${channel} voice channel`;
