@@ -16,18 +16,18 @@ export class EnID extends LanguagePiece {
     }
 
     public get interactionHandlers(): EnUsInteractionHandlers {
-        return this.container.stores.get("languages").get("en-US/interaction-handlers") as EnUsInteractionHandlers;
+        return this.container.stores.get("languages").get("en-ID/interaction-handlers") as EnUsInteractionHandlers;
     }
 
     public get commands(): EnUsCommands {
-        return this.container.stores.get("languages").get("en-US/commands") as EnUsCommands;
+        return this.container.stores.get("languages").get("en-ID/commands") as EnUsCommands;
     }
 
     public get preconditions(): EnUsPreconditions {
-        return this.container.stores.get("languages").get("en-US/preconditions") as EnUsPreconditions;
+        return this.container.stores.get("languages").get("en-ID/preconditions") as EnUsPreconditions;
     }
 
     public get player(): EnUsPlayer {
-        return this.container.stores.get("languages").get("en-US/player") as EnUsPlayer;
+        return this.container.stores.get("languages").get("en-ID/player") as EnUsPlayer;
     }
 }
