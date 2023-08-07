@@ -1,14 +1,13 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { bold, inlineCode } from "@discordjs/builders";
 import { User } from "@nezuchan/core";
-import { EnUsCommandsMusic } from "../../en-us/Commands/Music.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/commands/music"
 })
 
-export class EnIDCommandsMusic extends EnUsCommandsMusic {
+export class EnIDCommandsMusic extends LanguagePiece {
     public CURRENT_TRACK = (): string => "Trek saat ini";
     public CLEAR = (): string => "Menghapus antrian.";
     public DISCONNECT = (): string => "Terputus dari saluran suara, terima kasih telah mendengarkan!";

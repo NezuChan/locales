@@ -1,12 +1,11 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
-import { EnUsCommandsPremium } from "../../en-us/Commands/Premium.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/commands/premium"
 })
 
-export class EnIDCommandsPremium extends EnUsCommandsPremium {
+export class EnIDCommandsPremium extends LanguagePiece {
     public HAS_NO_ACTIVATED_SERVER = (): string => "Anda tidak memiliki server yang diaktifkan.";
     public DEACTIVATED = (guild: string): string => `Premium dinonaktifkan di ${guild}.`;
     public ACTIVATED = (guild: string, tier: string): string => `Premium diaktifkan di ${guild}. Tingkat: ${tier}`;

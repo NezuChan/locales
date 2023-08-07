@@ -1,15 +1,14 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { inlineCode } from "@discordjs/builders";
 import { Emoji } from "@nezuchan/constants";
 import { stripIndents } from "common-tags";
-import { EnUsCommandsConfiguration } from "../../en-us/Commands/Configuration.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/commands/configuration"
 })
 
-export class EnIDCommandsConfiguration extends EnUsCommandsConfiguration {
+export class EnIDCommandsConfiguration extends LanguagePiece {
     public DJ_ALREADY_ADDED = (): string => "User atau role ini sudah di tambahkan.";
     public DJ_NOT_USER = (): string => "Kamu harus memberi user yang valid.";
     public LOCALES_CURRENT = (locale: string): string => `Lokal saat ini disetel ke ${inlineCode(locale)}.`;

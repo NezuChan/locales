@@ -1,13 +1,12 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { User } from "@nezuchan/core";
-import { EnUsInteractionHandlers } from "../../en-us/InteractionHandlers/index.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/interaction-handlers"
 })
 
-export class EnIDInteractionHandlers extends EnUsInteractionHandlers {
+export class EnIDInteractionHandlers extends LanguagePiece {
     public AUDIO_BACK_BUTTON = (author: User | string): string => `${author instanceof User ? `<@${author.id}>` : `<@${author}>`}, Kamu menekan tombol kembali. trek sebelumnya dalam urutan antrean akan diputar`;
     public NO_BACK_TRACK = (author: User | string): string => `${author instanceof User ? `<@${author.id}>` : `<@${author}>`}, Tidak ada trek sebelumnya dalam urutan antrian`;
     public AUDIO_PAUSE_BUTTON = (author: User | string): string => `${author instanceof User ? `<@${author.id}>` : `<@${author}>`}, Kamu menekan tombol jeda. trek akan dijeda`;

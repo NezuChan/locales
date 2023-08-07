@@ -1,13 +1,12 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { inlineCode } from "@discordjs/builders";
-import { EnUsUtility } from "../../en-us/Utility/index.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/utility"
 })
 
-export class EnIDUtility extends EnUsUtility {
+export class EnIDUtility extends LanguagePiece {
     public ENABLED = (): string => "diaktifkan";
     public DISABLED = (): string => "tidak aktif";
     public INVALID_INDEX = (): string => "Kamu harus memberikan urutan yang benar.";

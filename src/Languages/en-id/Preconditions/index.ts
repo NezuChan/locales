@@ -1,14 +1,13 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { EnIDPreconditionsMusic } from "./Music.js";
 import { inlineCode } from "@discordjs/builders";
-import { EnUsPreconditions } from "../../en-us/Preconditions/index.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID/preconditions"
 })
 
-export class EnIDPreconditions extends EnUsPreconditions {
+export class EnIDPreconditions extends LanguagePiece {
     public get music(): EnIDPreconditionsMusic {
         return this.container.stores.get("languages").get("en-ID/preconditions/music") as EnIDPreconditionsMusic;
     }

@@ -1,13 +1,12 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { inlineCode } from "@discordjs/builders";
-import { EnUsCommandsPlaylist } from "../../en-us/Commands/Playlist.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-*ID/commands/playlist"
 })
 
-export class EnIDCommandsPlaylist extends EnUsCommandsPlaylist {
+export class EnIDCommandsPlaylist extends LanguagePiece {
     public INVALID_IDENTIFIER = (): string => "Anda harus memberikan daftar putar yang valid.";
     public INVALID_TRACK_IDENTIFIER = (): string => "Anda harus memberikan trek yang valid.";
     public INVALID_NAME = (): string => "Nama daftar putar hanya di izinkan huruf, angka, garis bawah, string. dan tidak boleh lebih dari 15 karakter";

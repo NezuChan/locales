@@ -1,17 +1,16 @@
-import { LanguageOptions } from "@nezuchan/i18n";
+import { LanguageOptions, LanguagePiece } from "@nezuchan/i18n";
 import { ApplyOptions } from "@nezuchan/decorators";
 import { EnUsCommands } from "../en-us/Commands";
 import { EnUsInteractionHandlers } from "../en-us/InteractionHandlers";
 import { EnUsPlayer } from "../en-us/Player";
 import { EnUsPreconditions } from "../en-us/Preconditions";
 import { EnUsUtility } from "../en-us/Utility";
-import { EnUs } from "../en-us/index.js";
 
 @ApplyOptions<LanguageOptions>({
     name: "en-ID"
 })
 
-export class EnID extends EnUs {
+export class EnID extends LanguagePiece {
     public get utility(): EnUsUtility {
         return this.container.stores.get("languages").get("en-ID/utility") as EnUsUtility;
     }
