@@ -3,7 +3,7 @@ import { ApplyOptions } from "@nezuchan/decorators";
 import { inlineCode } from "@discordjs/builders";
 
 @ApplyOptions<LanguageOptions>({
-    name: "en-*ID/commands/playlist"
+    name: "en-ID/commands/playlist"
 })
 
 export class EnIDCommandsPlaylist extends LanguagePiece {
