@@ -15,7 +15,7 @@ export class EnIDCommands extends LanguagePiece {
         return this.container.stores.get("languages").get("en-ID/commands/utility") as EnIDCommandsUtility;
     }
 
-    public get mIDic(): EnIDCommandsMusic {
+    public get music(): EnIDCommandsMusic {
         return this.container.stores.get("languages").get("en-ID/commands/music") as EnIDCommandsMusic;
     }
 
