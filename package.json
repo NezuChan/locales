@@ -58,6 +58,7 @@
     "@nezuchan/constants": "^0.5.6",
     "@nezuchan/framework": "^0.6.3",
     "@nezuchan/i18n": "^2.0.0",
-    "common-tags": "^1.8.2"
+    "common-tags": "^1.8.2",
+    "tslib": "^2.6.2"
   }
 }

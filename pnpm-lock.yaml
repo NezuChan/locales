@@ -17,6 +17,9 @@ dependencies:
   common-tags:
     specifier: ^1.8.2
     version: 1.8.2
+  tslib:
+    specifier: ^2.6.2
+    version: 2.6.2
 
 devDependencies:
   '@discordjs/builders':
