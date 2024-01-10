@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.6.3
     version: 0.6.3
   '@nezuchan/i18n':
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^3.0.0
+    version: 3.0.0
   '@sapphire/pieces':
     specifier: ^4.2.0
     version: 4.2.0
@@ -299,10 +299,10 @@ packages:
       - supports-color
     dev: false
 
-  /@nezuchan/i18n@2.0.0:
-    resolution: {integrity: sha512-GT3V1rIuBnTJIvQmLA8kXmN7IxXohQ8QnwH5F0LoJ1kpmEEeoGuRqQ4+2R4xWIEVZMr2bgh+oS5cdel8e9d0Ow==}
+  /@nezuchan/i18n@3.0.0:
+    resolution: {integrity: sha512-t489XNTldaNbza5zVg3q+tUc0JCvKGoup1NqJ49ECZvFsiPozgjevniPZP30RUqBE7C9dpYQM8/7yRV7toawpg==}
     dependencies:
-      '@sapphire/pieces': 3.7.0
+      '@sapphire/pieces': 4.2.0
     dev: false
 
   /@nezuchan/utilities@0.5.1(amqplib@0.10.3):
