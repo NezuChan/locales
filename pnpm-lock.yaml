@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   '@sapphire/pieces':
-    specifier: ^4.2.0
-    version: 4.2.0
+    specifier: ^4.2.1
+    version: 4.2.1
   common-tags:
     specifier: ^1.8.2
     version: 1.8.2
@@ -266,7 +266,7 @@ packages:
       '@nezuchan/constants': 0.8.0
       '@nezuchan/decorators': 0.2.0
       '@nezuchan/utilities': 0.6.2(amqplib@0.10.3)
-      '@sapphire/pieces': 4.2.0
+      '@sapphire/pieces': 4.2.1
       '@sapphire/result': 2.6.5
       '@sapphire/snowflake': 3.5.2
       '@sapphire/utilities': 3.15.2
@@ -281,7 +281,7 @@ packages:
   /@nezuchan/decorators@0.2.0:
     resolution: {integrity: sha512-AeTk7sqlQNv4qb+HHgzmYtQB65TxeIe1/Tibvi8Tq3n1209x98G5Jh+mLtOQ2gDZ1hfSBeqiFKrwVXJIjtnuIw==}
     dependencies:
-      '@sapphire/pieces': 4.2.0
+      '@sapphire/pieces': 4.2.1
       '@sapphire/utilities': 3.15.2
 
   /@nezuchan/framework@0.7.3:
@@ -291,7 +291,7 @@ packages:
       '@discordjs/collection': 2.0.0
       '@nezuchan/core': 0.7.3(amqplib@0.10.3)
       '@sapphire/lexure': 1.1.6
-      '@sapphire/pieces': 4.2.0
+      '@sapphire/pieces': 4.2.1
       '@sapphire/result': 2.6.5
       '@sapphire/utilities': 3.15.2
       amqplib: 0.10.3
@@ -305,7 +305,7 @@ packages:
   /@nezuchan/i18n@3.0.0:
     resolution: {integrity: sha512-t489XNTldaNbza5zVg3q+tUc0JCvKGoup1NqJ49ECZvFsiPozgjevniPZP30RUqBE7C9dpYQM8/7yRV7toawpg==}
     dependencies:
-      '@sapphire/pieces': 4.2.0
+      '@sapphire/pieces': 4.2.1
     dev: false
 
   /@nezuchan/utilities@0.6.2(amqplib@0.10.3):
@@ -355,8 +355,8 @@ packages:
       '@sapphire/result': 2.6.5
     dev: false
 
-  /@sapphire/pieces@4.2.0:
-    resolution: {integrity: sha512-Bh462mJbPv0VbrPhaNpFYD8Bdg9xnKPZEF6h8xA/lMTNnEbhM8e967klBNd8Gw+iDO0Bve60Pg2t4a1xyxdLxA==}
+  /@sapphire/pieces@4.2.1:
+    resolution: {integrity: sha512-pOVCJ8zgIGfFgmNOKBZJJgHoH/9y278JexDVCmA7RBji1Di5QAECWl8N/22abEU3O1W77Hxj1428fV+DdkZ69g==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
