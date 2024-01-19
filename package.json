@@ -58,7 +58,7 @@
     "@nezuchan/constants": "^0.8.0",
     "@nezuchan/framework": "^0.7.3",
     "@nezuchan/i18n": "^3.0.0",
-    "@sapphire/pieces": "^4.2.1",
+    "@sapphire/pieces": "^4.2.2",
     "common-tags": "^1.8.2",
     "tslib": "^2.6.2"
   }
