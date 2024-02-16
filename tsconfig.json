@@ -12,7 +12,7 @@
         "emitDecoratorMetadata": true,
         "declaration": true,
         "declarationMap": true,
-        "skipLibCheck": false,
+        "skipLibCheck": true,
         "noEmitHelpers": true,
         "importHelpers": true,
         "resolveJsonModule": true,
