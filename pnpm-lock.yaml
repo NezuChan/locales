@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   '@sapphire/pieces':
-    specifier: ^4.3.1
-    version: 4.3.1
+    specifier: ^4.4.0
+    version: 4.4.0
   common-tags:
     specifier: ^1.8.2
     version: 1.8.2
@@ -110,12 +110,12 @@ packages:
       ts-mixer: 6.0.3
       tslib: 2.6.2
 
-  /@discordjs/collection@1.5.3:
-    resolution: {integrity: sha512-SVb428OMd3WO1paV3rm6tSjM4wC+Kecaa1EUGX7vc6/fddvw/6lg90z4QtCqm21zvVe92vMMDt9+DkIvjXImQQ==}
-    engines: {node: '>=16.11.0'}
-
   /@discordjs/collection@2.0.0:
     resolution: {integrity: sha512-YTWIXLrf5FsrLMycpMM9Q6vnZoR/lN2AWX23/Cuo8uOOtS8eHB2dyQaaGnaF8aZPYnttf2bkLMcXn/j6JUOi3w==}
+    engines: {node: '>=18'}
+
+  /@discordjs/collection@2.1.1:
+    resolution: {integrity: sha512-LiSusze9Tc7qF03sLCujF5iZp7K+vRNEDBZ86FT9aQAv3vxMLihUvKvpsCWiQ2DJq1tVckopKm1rxomgNUc9hg==}
     engines: {node: '>=18'}
 
   /@discordjs/formatters@0.3.3:
@@ -269,7 +269,7 @@ packages:
       '@nezuchan/decorators': 0.2.0
       '@nezuchan/kanao-schema': 0.1.0(postgres@3.4.3)
       '@nezuchan/utilities': 0.6.2(amqplib@0.10.3)
-      '@sapphire/pieces': 4.3.1
+      '@sapphire/pieces': 4.4.0
       '@sapphire/result': 2.6.6
       '@sapphire/snowflake': 3.5.3
       '@sapphire/utilities': 3.15.3
@@ -308,7 +308,7 @@ packages:
   /@nezuchan/decorators@0.2.0:
     resolution: {integrity: sha512-AeTk7sqlQNv4qb+HHgzmYtQB65TxeIe1/Tibvi8Tq3n1209x98G5Jh+mLtOQ2gDZ1hfSBeqiFKrwVXJIjtnuIw==}
     dependencies:
-      '@sapphire/pieces': 4.3.1
+      '@sapphire/pieces': 4.4.0
       '@sapphire/utilities': 3.15.2
 
   /@nezuchan/framework@0.8.1:
@@ -318,7 +318,7 @@ packages:
       '@discordjs/collection': 2.0.0
       '@nezuchan/core': 0.8.1(amqplib@0.10.3)
       '@sapphire/lexure': 1.1.7
-      '@sapphire/pieces': 4.3.1
+      '@sapphire/pieces': 4.4.0
       '@sapphire/result': 2.6.6
       '@sapphire/utilities': 3.15.3
       amqplib: 0.10.3
@@ -353,7 +353,7 @@ packages:
   /@nezuchan/i18n@3.0.0:
     resolution: {integrity: sha512-t489XNTldaNbza5zVg3q+tUc0JCvKGoup1NqJ49ECZvFsiPozgjevniPZP30RUqBE7C9dpYQM8/7yRV7toawpg==}
     dependencies:
-      '@sapphire/pieces': 4.3.1
+      '@sapphire/pieces': 4.4.0
     dev: false
 
   /@nezuchan/kanao-schema@0.1.0(postgres@3.4.3):
@@ -432,13 +432,13 @@ packages:
       '@sapphire/result': 2.6.6
     dev: false
 
-  /@sapphire/pieces@4.3.1:
-    resolution: {integrity: sha512-t42o6i8gPQ3QISIsMl463hj057yfyHsaSrs4FssdiGLmnvL9cuLGLTsjGEPn904wHUhPzS8W5aAPr788RK2/jQ==}
+  /@sapphire/pieces@4.4.0:
+    resolution: {integrity: sha512-0VXa3j4okHTrg8zsaR/QPr5nYYMdNAdmBAcihLVLsKp8YU6vnljhw48o3iQ9i+Y/KsV5iXcOIxLVkXwtUaGdvg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
-      '@discordjs/collection': 1.5.3
-      '@sapphire/utilities': 3.16.2
-      tslib: 2.6.3
+      '@discordjs/collection': 2.1.1
+      '@sapphire/utilities': 3.18.2
+      tslib: 2.8.1
 
   /@sapphire/result@2.6.6:
     resolution: {integrity: sha512-QCjj7X/QlY0QUCeAaZQmnrsMH/b2BMQYee3F1Y5iF17JagUQqO3KZlG7vfXWQU3SRAJX5OgZZynBjixUH+nNGg==}
@@ -463,8 +463,8 @@ packages:
     resolution: {integrity: sha512-K5dFGOB5XvblXFN+Av+Tch/dVBAifmxtZ9/2mFo8VqzbiaFJIRUuoPAoNsp8pWYaU423yV8bfD8WsCSNd9w1YQ==}
     engines: {node: '>=v14.0.0'}
 
-  /@sapphire/utilities@3.16.2:
-    resolution: {integrity: sha512-0gRyXPH0hbmfZXwgvCH1z9H/kQwOlLeui86zKafZENpdjmuZznSkDFHRSUksr8Y5W/BxkqnR2WbNEfululh20Q==}
+  /@sapphire/utilities@3.18.2:
+    resolution: {integrity: sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==}
     engines: {node: '>=v14.0.0'}
 
   /@sindresorhus/is@4.6.0:
@@ -2316,6 +2316,9 @@ packages:
 
   /tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   /type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
