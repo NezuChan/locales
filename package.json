@@ -22,7 +22,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@discordjs/builders": "^1.7.0",
-    "@hazmi35/eslint-config": "^11.0.0",
+    "@hazmi35/eslint-config": "^15.2.2",
     "@nezuchan/core": "^0.8.1",
     "@nezuchan/decorators": "^0.2.0",
     "@swc/cli": "^0.1.63",
@@ -30,9 +30,9 @@
     "@types/amqplib": "^0.10.4",
     "@types/common-tags": "^1.8.4",
     "@types/node": "^20.11.5",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"
   },
